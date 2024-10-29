@@ -8,7 +8,7 @@ else:
     print('No')
 
 #work class 2
-salary =float(input("Please enter your salary: "))
+salary = float(input("Please enter your salary: "))
 if salary >= 20000:
     salary-= salary *0.13
     print(salary)
