@@ -37,12 +37,12 @@
 # print(name)
 # #output: the name
 
-#input() but I entered number
+# input() but I entered number
 # no_1= input("Please enter 1st no.: ")
 # no_2= input("please enter no 2: ")
 # print(no_1+no_2)
 
-#pharse string to int
+# parse string to int
 # no_3 =int(input("please enter no 3: "))
 # no_4 = int(input("please enter no 4: "))
 # print(f" {no_3}+ {no_4}= {no_3 +no_4}")
@@ -65,5 +65,4 @@
 # # a = a % 3
 # a%=3
 a = 3
-a**=10
-
+a **= 10
