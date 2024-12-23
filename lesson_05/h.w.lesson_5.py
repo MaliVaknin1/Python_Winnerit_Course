@@ -61,15 +61,13 @@ print(numbers)
 
 
 # H.w. ex.6
-def calculate_average(nums_list):
+def calculate_average(nums_list: list[int]):
     if not nums_list:
         return 0
     total_list = 0
-    count_list = 0
     for num in nums_list:
         total_list += num
-        count_list += 1
-    return total_list / count_list
+    return total_list / len(nums_list)
 
 
 numbers_list = [4, 5, 3, 235, 35]
