@@ -13,4 +13,3 @@ test_data=[(2,3,6), (0,100,0)]
 def test_sum_parameters(num_1, num_2, result):
     assert  num_1 * num_2 == result
 
-def test_
