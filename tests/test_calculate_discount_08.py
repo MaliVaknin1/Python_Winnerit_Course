@@ -2,7 +2,6 @@ import pytest
 
 from source.calculate_discount_08 import calculate_discount
 
-
 @pytest.fixture
 def basic_price():
     return 100

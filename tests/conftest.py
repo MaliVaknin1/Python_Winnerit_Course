@@ -9,4 +9,8 @@ def sample_data():
 
 @pytest.fixture(scope="function")
 def global_accum():
-    return Accumulator
+    return Accumulator()
+
+@pytest.fixture(scope="session")
+def base_url():
+    return 'https://reqres.in/api/'
